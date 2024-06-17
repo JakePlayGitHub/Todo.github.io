@@ -1,0 +1,8 @@
+#ff5252 - Red
+#ff52e7 - Pink
+#52ff5d - Green1
+#50ff87 - Green2
+#ffb352 - Orange
+#3776ff - Blue
+#2b2b2b - Dark Grey
+#434343 - Grey

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 388ms ease-in-out;
+}
+
+body {
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#434343, #2b2b2b);
+}
+
+.default-btn {
+    outline: none;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Nunito';
+    cursor: pointer;
+    background: none;
+    box-shadow: 2px 2px 3px #2b2b2b;
+}
+
+.default-btn:hover {
+    background-color: white;
+    color: #2b2b2b;
+}
+
+.default-btn.blue {
+    border-color: #3776ff;
+}
+
+.default-btn.blue:hover {
+    background-color: #3776ff;
+    color: white;
+}
+
+.default-btn.green {
+    border-color: #50ff87;
+}
+
+.default-btn.green:hover {
+    background-color: #50ff87;
+    color: white;
+}
+
+.default-btn.red {
+    border-color: #ff5252;
+}
+
+.default-btn.red:hover {
+    background-color: #ff5252;
+    color: white;
+}
+.open-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .open-lists {
+        flex-direction: column;
+    }
+}

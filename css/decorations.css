@@ -1,0 +1,48 @@
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-3px, 0); }
+    50% { transform: translate(3px, 0); }
+    75% { transform: translate(-3px, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+.emoji {
+    display: inline-block;
+    cursor: default;
+}
+
+.emoji:hover {
+    transform: rotate(360deg);
+}
+
+.text_color.blue {
+    cursor: default;
+    color: #3776ff;
+    display: inline-block;
+}
+
+.text_color.blue:hover {
+    transform: rotate3d(1, 1, 0, 35deg);
+}
+
+.text_color.red {
+    cursor: default;
+    color: #ff5252;
+    display: inline-block;
+    position: relative;
+}
+
+.text_color.red:hover {
+    animation: shake 0.3s infinite;
+}
+
+.text_color.green {
+    cursor: default;
+    transition: 1s;
+    color: #50ff87;
+    display: inline-block;
+}
+
+.text_color.green:hover {
+    transform: rotate3d(1, 0, 0, 360deg);
+}
